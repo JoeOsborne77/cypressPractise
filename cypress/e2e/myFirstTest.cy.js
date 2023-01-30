@@ -86,3 +86,4 @@ context('My First Test', () => {
     cy.get('.action-checkboxes [type="checkbox"]').first().check().should('be.checked')
   })
 })
+
